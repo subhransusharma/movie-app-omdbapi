@@ -1,0 +1,33 @@
+.movie-card {
+    display: flex;
+}
+.movie-detail-list {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+.movie-name{
+    text-align: center;
+}
+.movie-description{
+    margin: 10px 0px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.movie-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.details{
+    display: flex;
+    margin: 10px 0px;
+}
+.movie-type{
+    width:50%;
+    font-weight: bold;
+}
+.movie-poster {
+    width:200px !important; 
+    height:200px !important;
+}
