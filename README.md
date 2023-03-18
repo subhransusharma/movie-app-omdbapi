@@ -30,6 +30,10 @@ The application highlights two predefined movies, displaying the following infor
     
    **Dependencies:**
     ![image](https://user-images.githubusercontent.com/14253342/226126927-3140d8a1-a858-4d7c-a96c-8c59417689de.png)
+    
+   **API's used:**
+   http://www.omdbapi.com/?s=bridge&apiKey=6c3a2d45
+   http://www.omdbapi.com/?i=tt3682448&apikey=6c3a2d45
 
 **Few screenshots of the application**
 
@@ -41,6 +45,10 @@ The application highlights two predefined movies, displaying the following infor
 
 **Movie Details**
 ![image](https://user-images.githubusercontent.com/14253342/226127768-b01562ec-e56e-4525-852e-3af434b743c9.png)
+
+**Read More and read less**
+![image](https://user-images.githubusercontent.com/14253342/226128203-9c139ed7-065d-47f8-9ba6-0eb4f40677fe.png)
+
 
 
 
