@@ -49,6 +49,15 @@ The application highlights two predefined movies, displaying the following infor
 **Read More and read less**
 ![image](https://user-images.githubusercontent.com/14253342/226128203-9c139ed7-065d-47f8-9ba6-0eb4f40677fe.png)
 
+**Mobile View**
+![image](https://user-images.githubusercontent.com/14253342/226135845-cc35d41c-9ba1-4c7d-9ee5-bce93cf16ceb.png)
+
+![image](https://user-images.githubusercontent.com/14253342/226135942-5d4ec9fb-5ad5-4166-8561-5bfeb03ec1b6.png)
+
+![image](https://user-images.githubusercontent.com/14253342/226135983-388aa705-051e-4a26-940f-76c15eda2f15.png)
+
+
+
 
 
 
