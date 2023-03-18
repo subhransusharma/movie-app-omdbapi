@@ -6,13 +6,14 @@ import Plot from "../Plot/Plot";
 import "./MovieDetails.css";
 
 function MoviesDetailsModal(props) {
-  const { movie, onHide, show } = props;
+  const { movie, show } = props;
   const actorsList = movie?.Actors.split(", ");
   const genreList = movie?.Genre.split(", ");
   const writerList = movie?.Writer.split(", ");
   const directorList = movie?.Director.split(", ");
+
   return (
-    <Modal {...props} size="xl" centered>
+    <Modal {...props} size="lg" centered show={show}>
       <Modal.Header closeButton>
         <Modal.Title>
           {movie?.Title} ({movie?.Released})

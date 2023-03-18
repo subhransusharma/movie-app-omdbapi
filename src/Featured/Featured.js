@@ -63,31 +63,35 @@ const Featured = () => {
     <Container fluid className="carousel-container">
       <h3>Featured Collection:</h3>
       <Carousel
-        variant="dark"
+        variant="light"
+        indicators={false}
         nextIcon={directionButtons("Next")}
         prevIcon={directionButtons("Previous")}
       >
         {movieCollectionList?.map((movieCollection) => {
           return (
             <Carousel.Item key={movieCollection.movie.data.Poster}>
-              <img
-                className="d-block w-100"
-                height={250}
-                width={400}
-                src={movieCollection.movie.data.Poster}
-                alt={movieCollection.movie.data.alt}
-              />
-              <div className="carousel-description">
-                <h4>{movieCollection.movie.data.Title}</h4>
-                <p>
-                  <b>Year: </b>
-                  {movieCollection.movie.data.Year}
-                </p>
-                <Plot content={movieCollection.movie.data.Plot} limit={20} />
-                <p>
-                  <b>Awards: </b>
-                  {movieCollection.movie.data.Awards}
-                </p>
+              <div className="">
+                <div className="carousel-poster">
+                  <img
+                    height={200}
+                    width={300}
+                    src={movieCollection.movie.data.Poster}
+                    alt={movieCollection.movie.data.alt}
+                  />
+                </div>
+                <div className="carousel-description">
+                  <h4>{movieCollection.movie.data.Title}</h4>
+                  <p>
+                    <b>Year: </b>
+                    {movieCollection.movie.data.Year}
+                  </p>
+                  <Plot content={movieCollection.movie.data.Plot} limit={20} />
+                  <p>
+                    <b>Awards: </b>
+                    {movieCollection.movie.data.Awards}
+                  </p>
+                </div>
               </div>
             </Carousel.Item>
           );
