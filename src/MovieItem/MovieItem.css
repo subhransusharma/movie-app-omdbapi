@@ -1,7 +1,12 @@
+.movie-container{
+    display: inline-flex;
+}
+.movie-card{
+    width:220px;
+    height: 320px;
+    margin: 10px 10px;
+    background-color: #F8F9F9;
+}
 .movie-name{
     text-align: center;
-}
-.movie-poster {
-    width:200px !important; 
-    height:200px !important;
 }
