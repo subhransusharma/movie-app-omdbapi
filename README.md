@@ -38,13 +38,15 @@ The application highlights two predefined movies, displaying the following infor
 **Few screenshots of the application**
 
 **Landing Page:**
-![image](https://user-images.githubusercontent.com/14253342/226127162-21fc7c65-7bb4-421b-82ff-da695fe056ff.png)
+![image](https://user-images.githubusercontent.com/14253342/226198901-063de6eb-e24c-4e67-b0ff-fb0cbd838e04.png)
+
 
 **Search Page**
-![image](https://user-images.githubusercontent.com/14253342/226127610-1f619c14-129d-47b3-a28e-4497132ecf4e.png)
+![image](https://user-images.githubusercontent.com/14253342/226198922-4aff00d7-bdd1-4552-a253-7b04748e9b49.png)
 
 **Movie Details**
-![image](https://user-images.githubusercontent.com/14253342/226127768-b01562ec-e56e-4525-852e-3af434b743c9.png)
+![image](https://user-images.githubusercontent.com/14253342/226198957-3e7f0890-f46a-48d2-8481-c67747682701.png)
+
 
 **Read More and read less**
 ![image](https://user-images.githubusercontent.com/14253342/226128203-9c139ed7-065d-47f8-9ba6-0eb4f40677fe.png)
