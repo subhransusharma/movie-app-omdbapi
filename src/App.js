@@ -5,7 +5,7 @@ import Movies from "./Movies/Movies";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" data-testid="app-container">
       <Header />
       <Movies />
       <Featured />
